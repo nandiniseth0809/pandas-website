@@ -1,5 +1,5 @@
-v0.23.1 Final (June 12, 2018)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v0.23.2 Final (July 5, 2018)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is a minor bug-fix release in the 0.23.x series and includes some regression fixes, bug fixes, and performance improvements.
 We recommend that all users upgrade to this version.
@@ -12,4 +12,4 @@ Or via PyPI::
 
     python3 -m pip install --upgrade pandas
 
-See the `full whatsnew <https://pandas.pydata.org/pandas-docs/version/0.23.1/whatsnew.html#v0-23-1>`_ for a list of all the changes.
+See the `full whatsnew <https://pandas.pydata.org/pandas-docs/version/0.23.2/whatsnew.html#v0-23-2>`_ for a list of all the changes.
