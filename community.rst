@@ -2,16 +2,30 @@
 The *pandas* community
 **********************
 
-Have a question about *pandas*? Your first stop should be `Stack Overflow
-<http://stackoverflow.com/questions/tagged/pandas>`__. Search for an existing answer to
-your question, or post a new one (and make sure you include the "*pandas*"
-tag). You can also chat with other users on the #pydata channel on
-irc.freenode.net.
+The community of pandas users and developers is large and decentraliazed.
+We try to direct certain conversations to certain channels.
 
-Next, you should visit the `issue tracker
-<https://github.com/pydata/pandas/issues>`__, where all bugs and enhancements
-are logged and discussed. Search for relevant existing issues to comment on,
-or submit your own.
+1. Use the `#pandas tag on StackOverflow <http://stackoverflow.com/questions/tagged/pandas>`__
+   for *usage* questions (like "How do I do *X* in pandas?")
+2. Use the `GitHub issue tracker <https://github.com/pandas-dev/pandas>`__ for
+
+   - **Bug reports** (like "``DataFrame.head()`` returns 6 rows, when it should return 5.")
+   - **Documentation issues** (like "I found this section unclear")
+   - **Feature requests** (like "I think the DataFrame repr should include a pandas emoji next to the shape.")
+
+3. Use the `pandas dev mailing list <https://mail.python.org/mailman/listinfo/pandas-dev>`__ for
+   longer-form discussion items
+   - How should we have discussions about pandas?
+   - What items are on pandas roadmap?
+   - I'm hosting a pandas sprint.
+
+   This is also used to announce pandas releases and developer meetings.
+
+4. Use the `pandas gitter <https://gitter.im/pydata/pandas>`__ for quick feedback on
+   *development* issues
+
+   - I'm having trouble setting up the development environment.
+   - I messed up my git branches, can someone take a look?
 
 To learn more about how to contribute to the ongoing development of *pandas*,
 please check out our `contributing guidelines <http://pandas-docs.github.io/pandas-docs-travis/contributing.html>`_. For deeper
@@ -30,4 +44,3 @@ possible. Thank you to `all of our contributors
 <https://github.com/pydata/pandas/contributors>`_.
 
 Since 2015, *pandas* is a `NumFOCUS <http://www.numfocus.org/open-source-projects.html>`__ sponsored project. This will help ensure the success of development of *pandas* as a world-class open-source project.
-
