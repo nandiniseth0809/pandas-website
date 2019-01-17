@@ -14,18 +14,23 @@ We try to direct certain conversations to certain channels.
    - **Feature requests** (like "I think the DataFrame repr should include a pandas emoji next to the shape.")
 
 3. Use the `pandas dev mailing list <https://mail.python.org/mailman/listinfo/pandas-dev>`__ for
-   longer-form discussion items
-   - How should we have discussions about pandas?
-   - What items are on pandas roadmap?
-   - I'm hosting a pandas sprint.
+   longer-form discussion items. This is for things that concern the broader pandas community.
+   Most users probably don't care about an obscure edge-case in ``Series.str.split`` (which  should be
+   reported on the issue tracker), but may care about larger-picture things like
 
-   This is also used to announce pandas releases and developer meetings.
+   - How should we have discussions about pandas and the community?
+   - Developing or adding items to a pandas roadmap
+   - Announcing sprints or conference talks
+   - Changes to the development workflow
+   - Announcements for pandas releases and developer meetings
+   - ...
 
 4. Use the `pandas gitter <https://gitter.im/pydata/pandas>`__ for quick feedback on
    *development* issues
 
    - I'm having trouble setting up the development environment.
    - I messed up my git branches, can someone take a look?
+   - ...
 
 To learn more about how to contribute to the ongoing development of *pandas*,
 please check out our `contributing guidelines <http://pandas-docs.github.io/pandas-docs-travis/contributing.html>`_. For deeper
