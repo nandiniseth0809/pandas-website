@@ -41,15 +41,23 @@ Core Team
 Current Core Team:
 
 - Tom Augspurger
+- William Ayd
 - Chris Bartak
+- Pietro Battiston
 - Phillip Cloud
+- Marc Garcia
 - Andy Hayden
+- Masaaki Horikoshi
 - Stephan Hoyer
 - Wes McKinney
+- Brock Mendel
 - Jeff Reback
+- Matthew Roeschke
+- Jeremy Schendel
 - Chang She
-- Masaaki Horikoshi
 - Joris Van den Bossche
+- G. Young
+
 
 More details and the past Core Team members can be found on the `people's page <https://github.com/pandas-dev/pandas-governance/blob/master/people.md>`__ of the governance repo.
 
