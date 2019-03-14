@@ -2,7 +2,7 @@
 *pandas* Papers
 ***************
 
-* Data Structures for Statistical Computing in Python; presented at SciPy 2010[`pdf <http://jarrodmillman.com/scipy2010/pdfs/mckinney.pdf>`__][ :download:`bib</_static/reference_data_structures.bib>`]
+* Data Structures for Statistical Computing in Python; presented at SciPy 2010[`pdf <http://conference.scipy.org/proceedings/scipy2010/pdfs/mckinney.pdf>`__][ :download:`bib<http://conference.scipy.org/proceedings/scipy2010/bib/mckinney.bib>`]
 
 * pandas: a Foundational Python Library for Data Analysis and Statistics; presented at PyHPC2011 [`pdf <https://www.scribd.com/doc/71048089/pandas-a-Foundational-Python-Library-for-Data-Analysis-and-Statistics>`__][ :download:`bib</_static/reference_foundational_library.bib>`]
 
