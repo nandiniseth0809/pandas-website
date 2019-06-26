@@ -1,28 +1,41 @@
-v0.23.0 Final (May 15, 2018)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v0.24.0 Final (January 25, 2018)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is a major release from 0.22.0 and includes a number of API changes, new features, enhancements, and performance improvements along with a large number of bug fixes.
+This is a major release from 0.23.4 and includes a number of API
+changes, new features, enhancements, and performance improvements along
+with a large number of bug fixes.
 
 Highlights include:
 
-- `Round-trippable JSON format with 'table' orient <https://pandas.pydata.org/pandas-docs/version/0.23.0/whatsnew.html#json-read-write-round-trippable-with-orient-table>`_.
-- `Instantiation from dicts respects order for Python 3.6+ <https://pandas.pydata.org/pandas-docs/version/0.23.0/whatsnew.html#instantation-from-dicts-preserves-dict-insertion-order-for-python-3-6>`_.
-- `Dependent column arguments for assign <https://pandas.pydata.org/pandas-docs/version/0.23.0/whatsnew.html#assign-accepts-dependent-arguments>`_.
-- `Merging / sorting on a combination of columns and index levels <https://pandas.pydata.org/pandas-docs/version/0.23.0/whatsnew.html#merging-on-a-combination-of-columns-and-index-levels>`_.
-- `Extending Pandas with custom types <https://pandas.pydata.org/pandas-docs/version/0.23.0/whatsnew.html#extending-pandas-with-custom-types-experimental>`_.
-- `Excluding unobserved categories from groupby <https://pandas.pydata.org/pandas-docs/version/0.23.0/whatsnew.html#categorical-groupers-has-gained-an-observed-keyword>`_.
+-  `Optional Nullable Integer
+   Support <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#optional-integer-na-support>`__
+-  `New APIs for accessing the array backing a Series or
+   Index <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#accessing-the-values-in-a-series-or-index>`__
+-  `A new top-level pandas.array() method for creating
+   arrays <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#array>`__
+-  `Store Interval and Period data in a Series or
+   DataFrame <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#storing-interval-and-period-data-in-series-and-dataframe>`__
+-  `Joining with two
+   MultiIndexes <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#joining-with-two-multi-indexes>`__
 
-The release candidate can be installed with conda from our development channel (builds for osx-64, linux-64 and win-64 for Python 2.7, Python 3.5, and Python 3.6 are all available)::
+See the `release
+notes <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html>`__
+for a full list of all the change from 0.23.4
 
-    conda install pandas
+The release candidate can be installed with conda using the defaults or
+conda-forge channels
 
-or conda forge::
+::
 
-    conda install -c conda-forge pandas
+   conda install pandas
 
-Or via PyPI::
+Or via PyPI
 
-    python3 -m pip install --upgrade pandas==0.23.0
+::
 
-See the `full whatsnew <https://pandas.pydata.org/pandas-docs/version/0.23.0/whatsnew.html#v0-23-0>`_ for a list of all the changes.
+   python3 -m pip install --upgrade pandas
 
+Note that 0.24.x is the last series of releases to support Python 2.
+
+Please report any issues with the release candidate on the `pandas issue
+tracker <https://github.com/pandas-dev/pandas/issues>`__.
