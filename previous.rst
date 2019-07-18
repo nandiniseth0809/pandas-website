@@ -1,41 +1,15 @@
-v0.24.0 Final (January 25, 2018)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v0.24.2 Final (March 14, 2019)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is a major release from 0.23.4 and includes a number of API
-changes, new features, enhancements, and performance improvements along
-with a large number of bug fixes.
+This is a minor bug-fix release in the 0.24.x series and includes some regression fixes, bug fixes, and performance improvements.
+We recommend that all users upgrade to this version.
 
-Highlights include:
+The release can be installed with conda from conda-forge or the default channel::
 
--  `Optional Nullable Integer
-   Support <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#optional-integer-na-support>`__
--  `New APIs for accessing the array backing a Series or
-   Index <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#accessing-the-values-in-a-series-or-index>`__
--  `A new top-level pandas.array() method for creating
-   arrays <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#array>`__
--  `Store Interval and Period data in a Series or
-   DataFrame <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#storing-interval-and-period-data-in-series-and-dataframe>`__
--  `Joining with two
-   MultiIndexes <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html#joining-with-two-multi-indexes>`__
+    conda install pandas
 
-See the `release
-notes <http://pandas.pydata.org/pandas-docs/version/0.24/whatsnew/v0.24.0.html>`__
-for a full list of all the change from 0.23.4
+Or via PyPI::
 
-The release candidate can be installed with conda using the defaults or
-conda-forge channels
+    python3 -m pip install --upgrade pandas
 
-::
-
-   conda install pandas
-
-Or via PyPI
-
-::
-
-   python3 -m pip install --upgrade pandas
-
-Note that 0.24.x is the last series of releases to support Python 2.
-
-Please report any issues with the release candidate on the `pandas issue
-tracker <https://github.com/pandas-dev/pandas/issues>`__.
+See the `full whatsnew <https://pandas.pydata.org/pandas-docs/version/0.24.2/whatsnew/v0.24.2.html>`_ for a list of all the changes.
