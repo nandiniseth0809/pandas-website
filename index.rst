@@ -3,6 +3,19 @@ Python Data Analysis Library
 ****************************
 
 
+.. raw:: html
+
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert" style="text-align: center;font-size: 1.1em;max-width: 720px;margin-left: auto;margin-right: auto;">
+
+       Help improve pandas by taking the <a href="https://forms.gle/NnfEdj5JK77TotYY9">Pandas user survey</a>.
+
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+
+
 *pandas* is an open source, BSD-licensed library providing high-performance,
 easy-to-use data structures and data analysis tools for the `Python
 <https://www.python.org/>`__ programming language.
