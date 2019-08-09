@@ -12,7 +12,7 @@ Donations are managed by the `NumFOCUS <http://www.numfocus.org/open-source-proj
     <iframe style="height: 325px;width: 300px;border: medium none; display:inline-block;" src="https://www.flipcause.com/embed/html_widget/MzA3OA=="></iframe>
     </div>
 
-If you are a Tidelift subscriber, you can `support pandas <https://tidelift.com/subscription/pkg/pypi-pandas?utm_source=pypi-pandas&utm_medium=referral&utm_campaign=readme>`__.
+You can support pandas by becoming a `Tidelift subscriber <https://tidelift.com/subscription/pkg/pypi-pandas?utm_source=pypi-pandas&utm_medium=referral&utm_campaign=readme>`__.
 
 More specifically, donations can be used to work towards major improvements of the *pandas* Project, including:
 
