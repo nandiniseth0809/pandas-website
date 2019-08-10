@@ -2,7 +2,7 @@
 Donations
 *********
 
-*pandas* is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides *pandas* with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit `numfocus.org <http://www.numfocus.org/>` for more information.
+*pandas* is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides *pandas* with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit `numfocus.org <https://www.numfocus.org/>` for more information.
 
 Donations to *pandas* are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
 
