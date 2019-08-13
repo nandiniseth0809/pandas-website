@@ -201,6 +201,11 @@ div.body {
   text-align: justify;
 }
 
+#c3a7d378-061d-4979-b13e-430002d56452 {
+    text-align: left;
+    border: 0.5rem solid #d9d9d9;
+}
+
 div.document ul {
   margin: 1.5em;
   list-style-type: square;
