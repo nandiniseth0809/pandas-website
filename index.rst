@@ -40,11 +40,10 @@ Quick vignette
 
 .. raw:: html
 
-    <iframe src="https://player.vimeo.com/video/59324550" width="500"
-    height="309" frameborder="0" webkitAllowFullScreen mozallowfullscreen
-    allowFullScreen></iframe> <p><a href="https://vimeo.com/59324550">10-minute
-    tour of pandas</a> from <a href="https://vimeo.com/user10077863">Wes
-    McKinney</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe width="560" height="315" frameborder="0"
+    src="https://www.youtube.com/embed/_T8LGqJtuGc"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
 
 What problem does *pandas* solve?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
