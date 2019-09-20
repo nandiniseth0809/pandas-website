@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-27880019-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <title>v0.25.0 Final (July 18, 2019) &#8212; pandas: Python Data Analysis Library</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="_static/pydata.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+<div class="header-wrapper">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img class="logo" src="_static/pandas_logo.png" alt="Logo"/></a>
+		</div>
+
+        <div class="rel">
+			<a href="index.html">home</a> //
+			<a href="about.html">about</a> //
+			<a href="getpandas.html">get pandas</a> //
+			<a href="http://pandas.pydata.org/pandas-docs/stable">documentation</a> //
+			<a href="community.html">community</a> //
+			<a href="talks.html">talks</a> //
+			<a href="donate.html">donate</a>
+		</div>
+
+	</div>
+</div>
+
+<div class="content-wrapper">
+<div class="content">
+<div class="sphinxsidebar">
+<div class="sphinxsidebarwrapper">
+
+<div class="sidebarblock">
+<h3>Versions</h3>
+
+
+
+	<div class="tile">
+				<h4>Release</h4>
+				0.25.1 - August 2019 <br/>
+				<a href="https://pypi.org/project/pandas/#files">download</a>          //
+				<a href="http://pandas.pydata.org/pandas-docs/stable/">docs</a> //
+				<a href="http://pandas.pydata.org/pandas-docs/stable/pandas.pdf">pdf</a>
+	</div>
+
+	<div class="tile">
+		<h4>Development</h4>
+        0.26.0 - September 2019<br/>
+        <a href="https://github.com/pydata/pandas">github</a> //
+        <a href="https://dev.pandas.io/">docs</a>
+    </div>
+
+    <div class="tile">
+      <h4>Previous Releases</h4>
+      
+          <div>
+              0.25.0 -
+              <a href="https://pypi.org/project/pandas/0.25.0/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.25/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.25/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.24.2 -
+              <a href="https://pypi.org/project/pandas/0.24.2/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.24/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.24/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.24.1 -
+              <a href="https://pypi.org/project/pandas/0.24.1/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.24/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.24/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.24.0 -
+              <a href="https://pypi.org/project/pandas/0.24.0/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.24/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.24/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.23.4 -
+              <a href="https://pypi.org/project/pandas/0.23.4/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.23.3 -
+              <a href="https://pypi.org/project/pandas/0.23.3/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.23.2 -
+              <a href="https://pypi.org/project/pandas/0.23.2/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.23.1 -
+              <a href="https://pypi.org/project/pandas/0.23.1/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.23.0 -
+              <a href="https://pypi.org/project/pandas/0.23.0/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.23/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.22.0 -
+              <a href="https://pypi.org/project/pandas/0.22.0/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.22/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.22/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.21.1 -
+              <a href="https://pypi.org/project/pandas/0.21.1/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.21/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.21/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.21.0 -
+              <a href="https://pypi.org/project/pandas/0.21.0/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.21/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.21/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.20.3 -
+              <a href="https://pypi.org/project/pandas/0.20.3/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.20/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.20/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.19.2 -
+              <a href="https://pypi.org/project/pandas/0.19.2/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.19/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.19/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.18.1 -
+              <a href="https://pypi.org/project/pandas/0.18.1/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.18/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.18/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.17.1 -
+              <a href="https://pypi.org/project/pandas/0.17.1/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.17/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.17/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.16.2 -
+              <a href="https://pypi.org/project/pandas/0.16.2/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.16/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.16/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.15.2 -
+              <a href="https://pypi.org/project/pandas/0.15.2/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.15/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.15/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.14.1 -
+              <a href="https://pypi.org/project/pandas/0.14.1/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.14/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.14/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.13.1 -
+              <a href="https://pypi.org/project/pandas/0.13.1/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.13/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.13/pandas.pdf">pdf</a>
+          </div>
+
+      
+          <div>
+              0.12.0 -
+              <a href="https://pypi.org/project/pandas/0.12.0/#files">download</a>          //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.12/">docs</a> //
+              <a href="http://pandas.pydata.org/pandas-docs/version/0.12/pandas.pdf">pdf</a>
+          </div>
+
+      
+    </div>
+
+
+</div>
+
+<div class="sidebarblock">
+	<h3>About pandas</h3>
+  	<ul>
+    	<li><a href="http://pandas.pydata.org/pandas-docs/dev/whatsnew.html">What's New</a></li>
+		<li><a href="http://pandas.pydata.org/pandas-docs/stable/install.html">Getting Started</a></li>
+		<li><a href="https://github.com/pydata/pandas/issues">Issue Tracker</a></li>
+    	<li><a href="http://pandas.pydata.org/pandas-docs/stable/overview.html#license">License</a></li>
+		<li><a href="http://pandas.pydata.org/pandas-docs/stable/contributing.html">Contributing Guidelines</a></li>
+  	</ul>
+</div>
+
+<div class="sidebarblock">
+<h3>Get the book</h3>
+   <a href="http://www.kqzyfj.com/click-7040302-11260198?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920050896.do&cjsku=0636920023784"><img src="_static/pydata_cover.jpg" alt="Python for Data Analysis", width=180, height=240></a>
+</div>
+
+<div class="sidebarblock">
+	<h3>Related Tools</h3>
+	<ul>
+    	<li><a href="http://www.scipy.org/">SciPy</a></li>
+    	<li><a href="http://www.numpy.org/">NumPy</a></li>
+    	<li><a href="http://statsmodels.sourceforge.net/">StatsModels</a></li>
+    	<li><a href="http://scikit-learn.org">scikit-learn</a></li>
+		<li><a href="http://jupyter.org/">Jupyter</a></li>
+		<li><a href="http://matplotlib.org/">matplotlib</a></li>
+  	</ul>
+</div>
+
+</div>
+</div>
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="v0-25-0-final-july-18-2019">
+<h1>v0.25.0 Final (July 18, 2019)<a class="headerlink" href="#v0-25-0-final-july-18-2019" title="Permalink to this headline">¶</a></h1>
+<p>This is a major release from 0.24.2 and includes a number of API changes, new
+features, enhancements, and performance improvements along with a large number
+of bug fixes.</p>
+<p>Highlights include:</p>
+<ul class="simple">
+<li><p>Dropped Python 2 support</p></li>
+<li><p><a class="reference external" href="https://pandas.pydata.org/pandas-docs/version/0.25/whatsnew/v0.25.0.html#groupby-aggregation-with-relabeling">Groupby aggregation with
+relabeling</a></p></li>
+<li><p><a class="reference external" href="https://pandas.pydata.org/pandas-docs/version/0.25/whatsnew/v0.25.0.html#better-repr-for-multiindex">Better repr for
+MultiIndex</a></p></li>
+<li><p><a class="reference external" href="https://pandas.pydata.org/pandas-docs/version/0.25/whatsnew/v0.25.0.html#shorter-truncated-repr-for-series-and-dataframe">Better truncated repr for Series and
+DataFrame</a></p></li>
+<li><p><a class="reference external" href="https://pandas.pydata.org/pandas-docs/version/0.25/whatsnew/v0.25.0.html#series-explode-to-split-list-like-values-to-rows">Series.explode to split list-like values to rows
+MultiIndexes</a></p></li>
+</ul>
+<p>The release can be installed with conda from conda-forge or the default channel:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pandas</span>
+</pre></div>
+</div>
+<p>Or via PyPI:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">pandas</span>
+</pre></div>
+</div>
+<p>See the <a class="reference external" href="https://pandas.pydata.org/pandas-docs/version/0.25/whatsnew/v0.25.0.html">full whatsnew</a> for a list of all the changes.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+<div class="footer-wrapper">
+</div>
+
+<a href="http://github.com/pydata/pandas"><img style="position: fixed; top: 0; right: 0; border: 0;"
+   src="_static/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a></div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+  </body>
+</html>
