@@ -3,19 +3,6 @@ Python Data Analysis Library
 ****************************
 
 
-.. raw:: html
-
-
-        <div class="alert alert-warning alert-dismissible fade show" role="alert" style="text-align: center;font-size: 1.1em;max-width: 720px;margin-left: auto;margin-right: auto;">
-
-       Help improve pandas by taking the <a href="https://forms.gle/NnfEdj5JK77TotYY9">pandas user survey</a>.
-
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-             <span aria-hidden="true">&times;</span>
-           </button>
-         </div>
-
-
 *pandas* is an open source, BSD-licensed library providing high-performance,
 easy-to-use data structures and data analysis tools for the `Python
 <https://www.python.org/>`__ programming language.
@@ -53,11 +40,10 @@ Quick vignette
 
 .. raw:: html
 
-    <iframe src="https://player.vimeo.com/video/59324550" width="500"
-    height="309" frameborder="0" webkitAllowFullScreen mozallowfullscreen
-    allowFullScreen></iframe> <p><a href="https://vimeo.com/59324550">10-minute
-    tour of pandas</a> from <a href="https://vimeo.com/user10077863">Wes
-    McKinney</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe width="560" height="315" frameborder="0"
+    src="https://www.youtube.com/embed/_T8LGqJtuGc"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
 
 What problem does *pandas* solve?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

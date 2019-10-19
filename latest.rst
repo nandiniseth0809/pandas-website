@@ -10,6 +10,6 @@ The release will be available in the conda-forge and defaults conda channels:
 
     conda install pandas
 
- Or via PyPI:
+Or via PyPI:
 
    python -m pip install --upgrade pandas
